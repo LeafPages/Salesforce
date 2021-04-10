@@ -28,7 +28,7 @@ public class SFO19_CreateTask {
 		
 		// 1. Login to https://login.salesforce.com
 		driver.findElementById("username").sendKeys("cypress@testleaf.com");
-		driver.findElementById("password").sendKeys("Bootcamp$123");
+		driver.findElementById("password").sendKeys("Selbootcamp@123");
 		driver.findElementById("Login").click();
 		
 		// 2. Click on toggle menu button from the left corner
