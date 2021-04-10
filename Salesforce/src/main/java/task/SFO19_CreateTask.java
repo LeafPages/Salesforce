@@ -46,6 +46,15 @@ public class SFO19_CreateTask {
 		// Click New
 		driver.findElementByXPath("//div[@title='New']").click();
 		
+		// Type the Opportunity Name
+		driver.findElementByXPath("//label[text()='Opportunity Name']/following::input").sendKeys("Mercury Project");
+		
+		// *Close Date
+		driver.findElementByXPath("(//input[@class='slds-input'])[3]").sendKeys("4/14/2021");
+		
+		// Snapshot
+		//driver.getScreenShotAs(OutputType.base64);
+		
 		// Close the browser
 		driver.close();
 		
