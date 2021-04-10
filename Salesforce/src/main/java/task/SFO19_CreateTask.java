@@ -37,6 +37,15 @@ public class SFO19_CreateTask {
 		// 3. Click view All and click Sales from App Launcher
 		driver.findElementByXPath("//button[text()='View All']").click();
 		
+		// Click Sales
+		driver.findElementByXPath("//p[text()='Sales']").click();
+		
+		// Click All deals
+		driver.findElementByXPath("//span[text()='View All Key Deals']").click();
+		
+		// Click New
+		driver.findElementByXPath("//div[@title='New']").click();
+		
 		// Close the browser
 		driver.close();
 		
